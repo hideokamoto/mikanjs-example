@@ -1,12 +1,14 @@
 {
-  "name": "mikanjs",
+  "name": "mikanjs-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Japanese text converter example.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "simple": "node index.js",
+    "interactive": "node stdin.js"
   },
-  "author": "",
+  "author": "hideokamoto",
   "license": "MIT",
   "dependencies": {
     "mikan.js": "^1.0.4"
